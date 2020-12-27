@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+        <h1>Poll of fan:</h1>
+    </header>
+    <main>
+        <form action="https://formspree.io/f/xrgooygp" method="POST">
+            
+            <label for="user-name">user-name</label>
+            <input type="text" id="user-name" required placeholder="user-name"><br><br>
+
+            Gender <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other"><br><br>
+
+            <label for="phone">Enter your phone number</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="email">Enter your email</label>
+            <input type="email" name="email" id="email" required><br><br>
+
+            Your favorite player? <br>
+            <label for="General">General</label>
+            <input type="checkbox" id="General" name="General">
+
+            <label for="Fly">Fly</label>
+            <input type="checkbox" id="Fly" name="Fly">
+
+            <label for="Iceberg">Iceberg</label>
+            <input type="checkbox" id="Iceberg" name="Iceberg">
+
+            <label for="V-tune">V-tune</label>
+            <input type="checkbox" id="V-tune" name="V-tune">
+
+            <label for="General">Rodjer</label>
+            <input type="checkbox" id="Rodjer" name="Rodjer"><br><br>
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="country">Choose a a country:</label>
+            <select id="country" name="country">
+                <option value="UA">UA</option>
+                <option value="RUS">RUS</option>
+                <option value="EU">EU</option>
+                <option value="USA">USA</option>
+            </select><br><br>
+            
+            <textarea name="Massage" placeholder="Best wishes"></textarea><br>
+
+            <input type="submit" id="submit" name="submit">
+
+            <input type="reset" id="reset" name="reset"><br><br>
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
